@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 82218013}
   - component: {fileID: 82218014}
   m_Layer: 0
-  m_Name: Grave_2
-  m_TagString: Untagged
+  m_Name: Grave_5
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,11 +148,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82218012}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -1.734, y: -2.4, z: 3.865806}
+  m_LocalPosition: {x: -1.7340001, y: -2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 11
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &82218014
 SpriteRenderer:
@@ -232,30 +232,30 @@ Transform:
   m_LocalPosition: {x: -1.6, y: 1.28, z: -3.865806}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1623579040}
   - {fileID: 1554281735}
-  - {fileID: 1235039038}
-  - {fileID: 1399730095}
   - {fileID: 416049339}
-  - {fileID: 304686974}
-  - {fileID: 615540234}
-  - {fileID: 715171962}
-  - {fileID: 1561267698}
   - {fileID: 1522529045}
   - {fileID: 1646079197}
-  - {fileID: 540787870}
   - {fileID: 82218013}
-  - {fileID: 683062248}
-  - {fileID: 1605613628}
-  - {fileID: 2124854282}
   - {fileID: 815224018}
-  - {fileID: 528373495}
   - {fileID: 1944760246}
-  - {fileID: 1623579040}
   - {fileID: 853088085}
   - {fileID: 582358683}
-  - {fileID: 886334063}
   - {fileID: 1879014928}
   - {fileID: 1748125873}
+  - {fileID: 1235039038}
+  - {fileID: 886334063}
+  - {fileID: 528373495}
+  - {fileID: 2124854282}
+  - {fileID: 1605613628}
+  - {fileID: 683062248}
+  - {fileID: 540787870}
+  - {fileID: 1561267698}
+  - {fileID: 715171962}
+  - {fileID: 615540234}
+  - {fileID: 304686974}
+  - {fileID: 1399730095}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 304686974}
   - component: {fileID: 304686975}
   m_Layer: 0
-  m_Name: Grave_0 (7)
+  m_Name: Grave_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,11 +284,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304686973}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -2.494, y: -2.837, z: 3.865806}
+  m_LocalPosition: {x: -2.494, y: -2.837, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 4
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &304686975
 SpriteRenderer:
@@ -434,8 +434,8 @@ GameObject:
   - component: {fileID: 416049339}
   - component: {fileID: 416049340}
   m_Layer: 0
-  m_Name: Grave_0 (5)
-  m_TagString: Untagged
+  m_Name: Grave_2
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,11 +448,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416049338}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -1.4349883, y: -0.49060833, z: 3.865806}
+  m_LocalPosition: {x: -1.4349884, y: -0.49060833, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &416049340
 SpriteRenderer:
@@ -763,6 +763,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -795,6 +796,31 @@ MonoBehaviour:
   - {fileID: 826062007431237671, guid: ed9d09de4916333498ab44949b2c7730, type: 3}
   - {fileID: 1412690854564491166, guid: 853e77fde0590a540a539c97a5d49747, type: 3}
   - {fileID: 6062159606761502173, guid: 661e0f071b124ea47a7bc47cd84e7715, type: 3}
+  spawnPoints:
+  - {fileID: 1554281734}
+  - {fileID: 416049338}
+  - {fileID: 1522529044}
+  - {fileID: 1646079196}
+  - {fileID: 82218012}
+  - {fileID: 815224016}
+  - {fileID: 1944760244}
+  - {fileID: 853088084}
+  - {fileID: 582358681}
+  - {fileID: 1879014926}
+  - {fileID: 1748125871}
+  - {fileID: 1235039037}
+  - {fileID: 886334061}
+  - {fileID: 528373493}
+  - {fileID: 2124854281}
+  - {fileID: 1605613627}
+  - {fileID: 683062247}
+  - {fileID: 540787869}
+  - {fileID: 1561267697}
+  - {fileID: 715171961}
+  - {fileID: 615540233}
+  - {fileID: 304686973}
+  - {fileID: 1399730094}
+  _zombieSound: {fileID: 519420033}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -852,6 +878,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &519420033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bcd051755707be64cb8d41fd28dd369c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &528373493
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +985,7 @@ GameObject:
   - component: {fileID: 528373495}
   - component: {fileID: 528373494}
   m_Layer: 0
-  m_Name: Grave_2 (1)
+  m_Name: Grave_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -928,11 +1050,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528373493}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -6.0079517, y: -3.1257963, z: 3.865806}
+  m_LocalPosition: {x: -6.0079517, y: -3.1257963, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!1 &540787869
 GameObject:
@@ -945,7 +1067,7 @@ GameObject:
   - component: {fileID: 540787870}
   - component: {fileID: 540787871}
   m_Layer: 0
-  m_Name: Grave_1 (1)
+  m_Name: Grave_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -959,11 +1081,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540787869}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: 0.86, y: -0.92, z: 3.865806}
+  m_LocalPosition: {x: 0.86, y: -0.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 10
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &540787871
 SpriteRenderer:
@@ -1027,8 +1149,8 @@ GameObject:
   - component: {fileID: 582358683}
   - component: {fileID: 582358682}
   m_Layer: 0
-  m_Name: Grave_0
-  m_TagString: Untagged
+  m_Name: Grave_9
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1092,11 +1214,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582358681}
   m_LocalRotation: {x: 0.0067175017, y: 0.999749, z: 0.021374507, w: 0.00014361936}
-  m_LocalPosition: {x: 3.6999998, y: 0.69000006, z: 3.8258061}
+  m_LocalPosition: {x: 3.6999998, y: 0.69000006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 20
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -2.449, y: 179.967, z: 0.771}
 --- !u!1 &615540233
 GameObject:
@@ -1109,7 +1231,7 @@ GameObject:
   - component: {fileID: 615540234}
   - component: {fileID: 615540235}
   m_Layer: 0
-  m_Name: Grave_0 (8)
+  m_Name: Grave_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1123,11 +1245,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615540233}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -3.283, y: -3.284, z: 3.865806}
+  m_LocalPosition: {x: -3.283, y: -3.284, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 5
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &615540235
 SpriteRenderer:
@@ -1273,7 +1395,7 @@ GameObject:
   - component: {fileID: 683062248}
   - component: {fileID: 683062249}
   m_Layer: 0
-  m_Name: Grave_2 (1)
+  m_Name: Grave_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1287,11 +1409,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683062247}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: 0.18574661, y: 0.36914968, z: 3.865806}
+  m_LocalPosition: {x: 0.18574661, y: 0.36914968, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 12
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &683062249
 SpriteRenderer:
@@ -1355,7 +1477,7 @@ GameObject:
   - component: {fileID: 715171962}
   - component: {fileID: 715171963}
   m_Layer: 0
-  m_Name: Grave_0 (9)
+  m_Name: Grave_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1369,11 +1491,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715171961}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -3.1317384, y: -1.4857982, z: 3.865806}
+  m_LocalPosition: {x: -3.1317384, y: -1.4857982, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 6
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &715171963
 SpriteRenderer:
@@ -1470,8 +1592,8 @@ GameObject:
   - component: {fileID: 815224018}
   - component: {fileID: 815224017}
   m_Layer: 0
-  m_Name: Grave_2
-  m_TagString: Untagged
+  m_Name: Grave_6
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1535,11 +1657,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815224016}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -4.549, y: -3.998, z: 3.865806}
+  m_LocalPosition: {x: -4.549, y: -3.998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 15
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!1 &853088084
 GameObject:
@@ -1552,8 +1674,8 @@ GameObject:
   - component: {fileID: 853088085}
   - component: {fileID: 853088086}
   m_Layer: 0
-  m_Name: Grave_3 (1)
-  m_TagString: Untagged
+  m_Name: Grave_8
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1566,11 +1688,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853088084}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -1.49, y: 1.18, z: 3.865806}
+  m_LocalPosition: {x: -1.4900001, y: 1.1800001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 19
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &853088086
 SpriteRenderer:
@@ -1634,7 +1756,7 @@ GameObject:
   - component: {fileID: 886334063}
   - component: {fileID: 886334062}
   m_Layer: 0
-  m_Name: Grave_0 (1)
+  m_Name: Grave_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1698,12 +1820,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886334061}
-  m_LocalRotation: {x: 0.0067175017, y: 0.999749, z: 0.021374507, w: 0.00014361936}
-  m_LocalPosition: {x: 3.0700002, y: 1.05, z: 3.8358061}
+  m_LocalRotation: {x: 0.0067175017, y: 0.999749, z: 0.021374509, w: 0.00014361937}
+  m_LocalPosition: {x: 3.0700002, y: 1.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 21
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -2.449, y: 179.967, z: 0.771}
 --- !u!1 &887479693
 GameObject:
@@ -2006,8 +2128,8 @@ GameObject:
   - component: {fileID: 1235039038}
   - component: {fileID: 1235039039}
   m_Layer: 0
-  m_Name: Grave_0 (2)
-  m_TagString: Untagged
+  m_Name: Grave_12
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2020,11 +2142,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235039037}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: 0.04942602, y: -1.3822333, z: 3.865806}
+  m_LocalPosition: {x: 0.04942596, y: -1.3822333, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 1
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1235039039
 SpriteRenderer:
@@ -2170,7 +2292,7 @@ GameObject:
   - component: {fileID: 1399730095}
   - component: {fileID: 1399730096}
   m_Layer: 0
-  m_Name: Grave_0 (4)
+  m_Name: Grave_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2184,11 +2306,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399730094}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -0.61671597, y: -0.041850567, z: 3.865806}
+  m_LocalPosition: {x: -0.61671597, y: -0.041850567, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 2
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1399730096
 SpriteRenderer:
@@ -2241,36 +2363,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1448376110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1448376111}
-  m_Layer: 0
-  m_Name: SpawnPoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1448376111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448376110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2173609, y: 0.15243989, z: -30.27733}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469444208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,8 +2538,8 @@ GameObject:
   - component: {fileID: 1522529045}
   - component: {fileID: 1522529046}
   m_Layer: 0
-  m_Name: Grave_0
-  m_TagString: Untagged
+  m_Name: Grave_3
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2460,11 +2552,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522529044}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -4.1671476, y: 0.3644811, z: 3.865806}
+  m_LocalPosition: {x: -4.1671476, y: 0.3644811, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1522529046
 SpriteRenderer:
@@ -2528,8 +2620,8 @@ GameObject:
   - component: {fileID: 1554281735}
   - component: {fileID: 1554281736}
   m_Layer: 0
-  m_Name: Grave_0
-  m_TagString: Untagged
+  m_Name: Grave_1
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,11 +2634,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554281734}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: 1.636, y: -0.48, z: 3.865806}
+  m_LocalPosition: {x: 1.636, y: -0.48000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1554281736
 SpriteRenderer:
@@ -2610,7 +2702,7 @@ GameObject:
   - component: {fileID: 1561267698}
   - component: {fileID: 1561267699}
   m_Layer: 0
-  m_Name: Grave_0 (11)
+  m_Name: Grave_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2624,11 +2716,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561267697}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -4.760644, y: -2.3994899, z: 3.865806}
+  m_LocalPosition: {x: -4.760644, y: -2.3994899, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 7
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1561267699
 SpriteRenderer:
@@ -2692,7 +2784,7 @@ GameObject:
   - component: {fileID: 1605613628}
   - component: {fileID: 1605613629}
   m_Layer: 0
-  m_Name: Grave_3
+  m_Name: Grave_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2706,11 +2798,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605613627}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -5.4932795, y: -1.0598222, z: 3.865806}
+  m_LocalPosition: {x: -5.4932795, y: -1.0598222, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1605613629
 SpriteRenderer:
@@ -2839,11 +2931,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623579038}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -4.2257314, y: 0.17558193, z: 3.865806}
+  m_LocalPosition: {x: -4.2257314, y: 0.17558193, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 18
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!1 &1646079196
 GameObject:
@@ -2856,8 +2948,8 @@ GameObject:
   - component: {fileID: 1646079197}
   - component: {fileID: 1646079198}
   m_Layer: 0
-  m_Name: Grave_1
-  m_TagString: Untagged
+  m_Name: Grave_4
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2870,11 +2962,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646079196}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -3.9196036, y: -1.9236052, z: 3.865806}
+  m_LocalPosition: {x: -3.9196038, y: -1.9236052, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &1646079198
 SpriteRenderer:
@@ -2938,8 +3030,8 @@ GameObject:
   - component: {fileID: 1748125873}
   - component: {fileID: 1748125872}
   m_Layer: 0
-  m_Name: Grave_0 (3)
-  m_TagString: Untagged
+  m_Name: Grave_11
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3003,11 +3095,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748125871}
   m_LocalRotation: {x: 0.0067175017, y: 0.999749, z: 0.021374507, w: 0.00014361936}
-  m_LocalPosition: {x: 1.72, y: 1.8299999, z: 3.875806}
+  m_LocalPosition: {x: 1.72, y: 1.8299999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 23
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -2.449, y: 179.967, z: 0.771}
 --- !u!1 &1782608509
 GameObject:
@@ -3102,8 +3194,8 @@ GameObject:
   - component: {fileID: 1879014928}
   - component: {fileID: 1879014927}
   m_Layer: 0
-  m_Name: Grave_0 (2)
-  m_TagString: Untagged
+  m_Name: Grave_10
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3167,11 +3259,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879014926}
   m_LocalRotation: {x: 0.0067175017, y: 0.999749, z: 0.021374507, w: 0.00014361936}
-  m_LocalPosition: {x: 2.41, y: 1.4200001, z: 3.855806}
+  m_LocalPosition: {x: 2.41, y: 1.4200001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 22
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -2.449, y: 179.967, z: 0.771}
 --- !u!1 &1904207235
 GameObject:
@@ -3348,8 +3440,8 @@ GameObject:
   - component: {fileID: 1944760246}
   - component: {fileID: 1944760245}
   m_Layer: 0
-  m_Name: Grave_1
-  m_TagString: Untagged
+  m_Name: Grave_7
+  m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3413,11 +3505,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944760244}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -6.2333984, y: -1.4823265, z: 3.865806}
+  m_LocalPosition: {x: -6.2333984, y: -1.4823265, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 17
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!1 &1985427131
 GameObject:
@@ -3594,7 +3686,7 @@ GameObject:
   - component: {fileID: 2124854282}
   - component: {fileID: 2124854283}
   m_Layer: 0
-  m_Name: Grave_0 (1)
+  m_Name: Grave_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3608,11 +3700,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124854281}
   m_LocalRotation: {x: -0, y: -0, z: -0.011216439, w: 0.9999372}
-  m_LocalPosition: {x: -2.3, y: 0.76, z: 3.865806}
+  m_LocalPosition: {x: -2.3, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 257685663}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.285}
 --- !u!212 &2124854283
 SpriteRenderer:
